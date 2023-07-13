@@ -1,5 +1,6 @@
 name: deploy
 
+
 on:
   push:
     branches: [ develop ]
@@ -8,7 +9,7 @@ env:
   AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
 
 jobs:
-  build:
+  build
     runs-on: ubuntu-20.04
 
     steps:
